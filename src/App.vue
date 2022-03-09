@@ -10,6 +10,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+    console.log('hello world 2')
   }
 }
 </script>
